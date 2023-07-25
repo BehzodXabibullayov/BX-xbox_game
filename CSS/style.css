@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 380px;
+    padding-left: 35px;
+    padding-top: 5px;
+    background-color: #373A3C;
+    color: #9b9c9d;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.header-div1 ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-div1 ul li a {
+    color: #9b9c9d;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+.header-input {
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-div2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-div2 a {
+    color: #9b9c9d;
+}
+
+.content1 {
+    background-image: url(../img/bakground-img.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.content1-div1 {
+    padding-top: 170px;
+    margin-left: 800px;
+}
+
+.content1-div1-h11 {
+    font-size: 40px;
+}
+
+.content1-buttons {
+    margin-top: 135px;
+}
+
+.content1-buttons1 {
+    width: 135px;
+    height: 40px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content1-buttons2 {
+    width: 145px;
+    height: 40px;
+    background-color: #5d6163;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.doiralar {
+    margin-top: 60px;
+}
+
+.ong {
+    position: absolute;
+    left: 1250px;
+    bottom: 250px;
+}       
+
+.chap {
+    position: absolute;
+    bottom: 235px;
+    left: 55px;
+}
+
+.content2 {
+    width: 100%;
+    height: 670px;
+    background-color: #5e5b61;
+}
+
+.content2-div1 {
+    color: #FFFFFF;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.div2-content1 {
+    width: 318px;
+    height: 415px;
+    background-color: #FFFFFF;
+    border: 1px solid #8dd83d;
+}
+
+.content1-div {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #435766;
+}
+
+.content1-div h2 {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.content1-div button {
+    width: 220px;
+    height: 55px;
+    margin-left: 20px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: brown;
+    cursor: pointer;
+}
+
+.content2-div2 {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.content2-img {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 75px;
+}
+
+.content2-img2 {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.content3 {
+    background-image: url(../img/bakground-img2.png);
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+}
+
+.content3-h1 {
+    text-align: center;
+    padding-top: 95px;
+    color: #FFFFFF;
+}
+
+.div3-paje1 {
+    width: 318px;
+    height: 420px;
+    background-color: #FFFFFF;
+    border: 1px solid #39bb10;
+    color: #435766;
+}
+
+.div3-paje1 h4{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.div3-paje1 h2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.content3-div1-button {
+    width: 270px;
+    height: 60px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.content3-div1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+.content3-div1-button1 {
+    width: 270px;
+    height: 60px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 105px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.div3-paje1-img1 {
+    height: 204px;
+}
+
+.div3-paje1-img2 {
+    height: 179px;
+}
+
+.content3-div1-button2 {
+    width: 270px;
+    height: 60px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 78px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.div3-paje2 {
+    width: 350px;
+    height: 460px;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: 1px solid #39bb10;
+    color: #22292e;
+}
+
+.div3-paje2 h4 {
+    margin-top: 25px;
+}
+
+.content3-div1-button3 {
+    width: 305px;
+    height: 65px;
+    margin-top: 120px;
+    margin-left: 23px;
+    background-color: #3aba0e;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.content3-button {
+    width: 205px;
+    height: 55px;
+    background-color: #4f5355;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 530px;
+    cursor: pointer;
+}
+
+.content4 {
+    background-image: url(../img/jossies.png);
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content4-div1 {
+    padding-top: 150px;
+    padding-left: 220px;
+    color: #FFFFFF;
+}
+
+.content4-div1 h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.content4-button1 {
+    width: 205px;
+    height: 60px;
+    background-color: #56595c;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.content4-button2 {
+    width: 275px;
+    height: 60px;
+    background-color: #8dd83d;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    width: 1349px;
+    height: 410px;
+    background-color: #373a3c;
+}
+
+.footer-div1-div1 h3 {
+    color: #7DD42F;
+    margin-bottom: 30px;
+}
+
+.footer-div1-div1 ul li {
+    margin-bottom: 30px;
+}
+
+.footer-div1-div1 ul li a {
+    color: #FFFFFF;
+}
+
+.footer-div1 {
+    display: flex;
+    align-items: baseline;
+    gap: 270px;
+    padding-top: 60px;
+    padding-left: 160px;
+}
+
+.footer-div1-div2 h3 {
+    color: #7DD42F;
+    margin-bottom: 30px;
+}
+
+.footer-div1-div2 img {
+    cursor: pointer;
+}
+
+.footer-div2 img {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.div2-div1 {
+    display: flex;
+    align-items: center;
+    gap: 930px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.div2-div1 h4 a {
+    color: #FFFFFF;
+}
